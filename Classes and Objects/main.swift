@@ -12,9 +12,11 @@ let myCar = Car()
 let someRichGuysCar = Car(customerChosenColor: "Gold")
 let mySelfDrivingCar = SelfDrivingCar()
 
-myCar.drive()
 mySelfDrivingCar.drive()
-print(mySelfDrivingCar.color)
+
+//myCar.drive()
+//mySelfDrivingCar.drive()
+//print(mySelfDrivingCar.color)
 
 //print(myCar.color)
 //print(myCar.numberOfSeats)
