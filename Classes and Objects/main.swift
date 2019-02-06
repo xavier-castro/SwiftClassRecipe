@@ -12,7 +12,10 @@ let myCar = Car()
 let someRichGuysCar = Car(customerChosenColor: "Gold")
 let mySelfDrivingCar = SelfDrivingCar()
 
-mySelfDrivingCar.drive()
+mySelfDrivingCar.destination = "1 Hacker Way"
+print(mySelfDrivingCar.destination)
+
+//mySelfDrivingCar.drive()
 
 //myCar.drive()
 //mySelfDrivingCar.drive()
